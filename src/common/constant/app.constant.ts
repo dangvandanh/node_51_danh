@@ -19,19 +19,19 @@ export const CLOUDINARY_NAME = process.env.CLOUDINARY_NAME;
 export const CLOUDINARY_API_KEY = process.env.CLOUDINARY_API_KEY;
 export const CLOUDINARY_API_SECRET = process.env.CLOUDINARY_API_SECRET;
 
-// log tạm trong lúc dev để kiểm tra có nạp được env hay không
-// khi lên production chạy thật cho khách hàng thì xoá dòng log đi
-// console.log({
-//   PORT,
-//   DATABASE_URL,
-//   ACCESS_TOKEN_SECRET,
-//   ACCESS_TOKEN_EXPIRES_IN,
-//   REFRESH_TOKEN_SECRET,
-//   REFRESH_TOKEN_EXPIRES_IN,
-//   GOOGLE_CLIENT_ID,
-//   GOOGLE_CLIENT_SECRET,
-//   GOOGLE_CLIENT_URI_CALLBACK,
-//   CLOUDINARY_NAME,
-//   CLOUDINARY_API_KEY,
-//   CLOUDINARY_API_SECRET,
-// });
+log tạm trong lúc dev để kiểm tra có nạp được env hay không
+khi lên production chạy thật cho khách hàng thì xoá dòng log đi
+console.log({
+  PORT,
+  DATABASE_URL,
+  ACCESS_TOKEN_SECRET,
+  ACCESS_TOKEN_EXPIRES_IN,
+  REFRESH_TOKEN_SECRET,
+  REFRESH_TOKEN_EXPIRES_IN,
+  GOOGLE_CLIENT_ID,
+  GOOGLE_CLIENT_SECRET,
+  GOOGLE_CLIENT_URI_CALLBACK,
+  CLOUDINARY_NAME,
+  CLOUDINARY_API_KEY,
+  CLOUDINARY_API_SECRET,
+});
